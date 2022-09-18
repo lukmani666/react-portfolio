@@ -24,7 +24,7 @@ const Contact = () => {
     if(Object.keys(formErrors).length === 0 && setOpenModal) {
       console.log(formValues);
     }
-  },[formErrors]);
+  },[formErrors, formValues]);
 
   const validate = (values) => {
     const errors = {};
