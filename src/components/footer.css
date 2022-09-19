@@ -1,0 +1,29 @@
+footer {
+    background: var(--color-primary);
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: var(--color-bg);
+}
+
+.footer_socials a {
+    background: var(--color-bg);
+    color: var(--color-white);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.footer_socials a:hover {
+    background: transparent;
+    color: var(--color-bg);
+    border-color: var(--color-bg);
+}
+
+.footer_copyright {
+    color: var(--color-bg);
+    font-size: medium;
+}

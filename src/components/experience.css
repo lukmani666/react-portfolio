@@ -1,0 +1,56 @@
+.experience_container {
+    display: grid;
+    justify-content: center;
+}
+
+.experience_front {
+    margin-top: 3rem;
+    background: var(--color-bg-varient);
+    display: grid;
+    justify-content: center;
+    padding: 2.4rem 5rem;
+    transition: var(--transition);
+    border: 1px solid transparent;
+}
+
+.experience_front:hover {
+    border-color: var(--color-primary-varient);
+    background: transparent;
+}
+
+.experience_details {
+    display: flex;
+    gap: 1rem;
+    background: transparent;
+    border-color: var(--color-primary-varient);
+    cursor: default;
+}
+
+.icon {
+    color: var(--color-primary);
+}
+
+
+@media screen and (max-width: 1024px) {
+    .experience_container > div {
+        width: 100%;
+        padding: 2rem;
+        margin: 0 auto;
+
+    }
+
+    .experience_content {
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .experience_container {
+        gap: 1rem;
+    }
+
+    .experience_container > div {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+}

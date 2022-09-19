@@ -1,0 +1,16 @@
+.popup {
+    margin-top: -500px;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+}
+
+.popup_icon {
+    color: var(--color-bg-varient);
+}
+
+.overlay {
+    background-color: white;
+}
+
+.modal_btn {
+    background: var(--color-bg-varient);
+}
