@@ -8,21 +8,23 @@ const Service = () => {
       <h5 className='text-center'>What I offer</h5>
       <h1 className="text-center">Services</h1>
 
-      <div className="service_container grid px-5 md:grid-cols-2 gap-12 px-10
+      <div className="service_container grid px-3.5 md:grid-cols-2 gap-12 px-10
       lg:grid-cols-3 gap-12 lg:px-20 pt-10">
         <article className="service">
           <div className="service_head">
             <h3 className=''>UI/UX Design</h3>
           </div>
 
-          <ul className="service_list p-6 md:p-8">
+          <ul className="service_list p-0 md:p-8">
             <li>
               <BiCheck className='service_icon' />
               <p>Design the user experience and interface keeping the user needs in mind.</p>
             </li>
             <li>
               <BiCheck className='service_icon' />
-              <p>Go through feedback on previous designs, and briefs for new projects, and coordinate with the team.</p>
+              <p>Go through feedback on previous designs, and briefs for new projects,
+                and coordinate with the team.
+              </p>
             </li>
             <li>
               <BiCheck className='service_icon' />
@@ -48,7 +50,7 @@ const Service = () => {
             <h3 className=''>Front End Development</h3>
           </div>
 
-          <ul className="service_list p-6 md:p-8">
+          <ul className="service_list p-0 md:p-8">
             <li>
               <BiCheck className='service_icon' />
               <p>Work with developers to design algorithms and flowcharts.</p>
@@ -85,7 +87,7 @@ const Service = () => {
             <h3 className=''>Content Creation</h3>
           </div>
 
-          <ul className="service_list p-6 md:p-8">
+          <ul className="service_list p-0 md:p-8">
             <li>
               <BiCheck className='service_icon' />
               <p>Prepare well-structured drafts using digital publishing platforms.</p>
