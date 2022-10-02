@@ -1,5 +1,10 @@
 import React from 'react'
 import './portfolio.css'
+import Home from './home.jpeg'
+import Voice from './voice.PNG'
+import Login from './login pic.PNG'
+import Calcu from './calcu.PNG'
+
 
 const Portfolio = () => {
   return (
@@ -11,8 +16,7 @@ const Portfolio = () => {
         <div className='portfolio_top grid md:flex flex-row justify-center gap-10 px-10 lg:flex flex-row justify-center gap-12'>
           <article className="portfolio_item">
             <div className="portfolio_item-image">
-              <img src="https://cdn.dribbble.com/users/4678459/screenshots/14658796/media/ab20aacdebd85bce0dccf0305f4ae178.png?
-                compress=1&resize=1000x750&vertical=top" 
+              <img src={Home} 
               alt="" className='img' />
             </div>
             <h3>Ola's motor automative</h3>
@@ -24,8 +28,8 @@ const Portfolio = () => {
 
           <article className="portfolio_item">
             <div className="portfolio_item-image">
-              <img src="https://scontent.flos5-2.fna.fbcdn.net/v/t1.6435-9/158261326_242189454251357_7219991952898730646_n.png?_nc_cat=107&ccb=1-7&_nc_sid=2c4854&_nc_ohc=7e1v4YFqNbsAX9Y14V4&_nc_ht=scontent.flos5-2.fna&oh=00_AT-Kd7Qjh1OkU9TTBHKwjaXJqiRgc9vzxi4ROpKxMlJBoA&oe=63351C5F
-              "alt=""  className='img'/>
+              <img src={Calcu}
+              alt=""  className='img'/>
             </div>
             <h3>Super calculator</h3>
             <div className="portfolio_item-cta">
@@ -39,7 +43,7 @@ const Portfolio = () => {
         <div className='portfolio_top grid md:flex flex-row justify-center gap-10 px-10 lg:flex flex-row justify-center gap-12 pt-10'>
           <article className="portfolio_item">
             <div className="portfolio_item-image">
-              <img src="https://static.vecteezy.com/system/resources/previews/000/641/301/original/vector-web-login-form-template.jpg" 
+              <img src={Login} 
               alt=""  className='img' />
             </div>
             <h3>React Login/Register</h3>
@@ -51,7 +55,7 @@ const Portfolio = () => {
 
           <article className="portfolio_item">
             <div className="portfolio_item-image">
-              <img src="https://fireflies.ai/blog/content/images/2021/08/Untitled-design--10-.jpg" 
+              <img src={Voice} 
               alt=""  className='img' />
             </div>
             <h3>Voice speech color changer</h3>
