@@ -1,9 +1,10 @@
 import React from 'react'
 import './portfolio.css'
-import Home from './home.jpeg'
-import Voice from './voice.PNG'
-import Login from './login pic.PNG'
-import Calcu from './calcu.PNG'
+import Login from './login.jpg'
+import Speech from './speech.jpg'
+import Cal from './cal.jpg'
+import Car from './car.jpg'
+import Chat from './chat.jpg'
 
 
 const Portfolio = () => {
@@ -13,10 +14,10 @@ const Portfolio = () => {
       <h1 className="text-center">Portfolio</h1>
 
       <div className="portfolio_container pt-10 gap-12">
-        <div className='portfolio_top grid md:flex flex-row justify-center gap-10 px-10 lg:flex flex-row justify-center gap-12'>
+        <div className='portfolio_top grid px-1 md:flex flex-row justify-center gap-10 px-10 lg:flex flex-row justify-center gap-12'>
           <article className="portfolio_item">
             <div className="portfolio_item-image">
-              <img src={Home} 
+              <img src={Car} 
               alt="" className='img' />
             </div>
             <h3>Ola's motor automative</h3>
@@ -28,7 +29,7 @@ const Portfolio = () => {
 
           <article className="portfolio_item">
             <div className="portfolio_item-image">
-              <img src={Calcu}
+              <img src={Cal}
               alt=""  className='img'/>
             </div>
             <h3>Super calculator</h3>
@@ -40,7 +41,7 @@ const Portfolio = () => {
 
         </div>
         
-        <div className='portfolio_top grid md:flex flex-row justify-center gap-10 px-10 lg:flex flex-row justify-center gap-12 pt-10'>
+        <div className='portfolio_top grid px-1 md:flex flex-row justify-center gap-10 px-10 lg:flex flex-row justify-center gap-12 pt-10'>
           <article className="portfolio_item">
             <div className="portfolio_item-image">
               <img src={Login} 
@@ -55,13 +56,27 @@ const Portfolio = () => {
 
           <article className="portfolio_item">
             <div className="portfolio_item-image">
-              <img src={Voice} 
+              <img src={Speech} 
               alt=""  className='img' />
             </div>
             <h3>Voice speech color changer</h3>
             <div className="portfolio_item-cta">
               <a href="https://github.com/lukmani666/voice-change" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
               <a href="https://voice001.netlify.app/" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
+            </div>
+          </article>
+        </div>
+
+        <div className='flex justify-center mt-10 px-0.5 lg:flex justify-center'>
+          <article className="portfolio_item">
+            <div className="portfolio_item-image">
+              <img src={Chat} 
+              alt=""  className='img' />
+            </div>
+            <h3>Chat app with authentication</h3>
+            <div className="portfolio_item-cta">
+              <a href="https://github.com/lukmani666/react-chat-app" target="_blank" rel='noopener noreferrer' className='btn'>Github</a>
+              <a href="https://react-chat-app-henna-eight.vercel.app/login" target="_blank" rel='noopener noreferrer' className='btn btn-primary'>Live Demo</a>
             </div>
           </article>
         </div>

@@ -9,13 +9,13 @@ const Service = () => {
       <h1 className="text-center">Services</h1>
 
       <div className="service_container grid px-3.5 md:grid-cols-2 gap-12 px-10
-      lg:grid-cols-3 gap-12 lg:px-20 pt-10">
+        lg:grid-cols-3 gap-12 lg:px-20 pt-10">
         <article className="service">
           <div className="service_head">
             <h3 className=''>UI/UX Design</h3>
           </div>
 
-          <ul className="service_list p-0 md:p-8">
+          <ul className="service_list">
             <li>
               <BiCheck className='service_icon' />
               <p>Design the user experience and interface keeping the user needs in mind.</p>
