@@ -14,7 +14,7 @@ const Portfolio = () => {
       <h1 className="text-center">Portfolio</h1>
 
       <div className="portfolio_container pt-10 gap-12">
-        <div className='portfolio_top grid px-1 md:flex flex-row justify-center gap-10 px-10 lg:flex flex-row justify-center gap-12'>
+        <div className='portfolio_top w-full grid px-2.5 md:flex flex-row justify-center gap-10 px-10 lg:flex flex-row justify-center gap-12'>
           <article className="portfolio_item">
             <div className="portfolio_item-image">
               <img src={Car} 
@@ -41,7 +41,7 @@ const Portfolio = () => {
 
         </div>
         
-        <div className='portfolio_top grid px-1 md:flex flex-row justify-center gap-10 px-10 lg:flex flex-row justify-center gap-12 pt-10'>
+        <div className='portfolio_top w-full grid px-2.5 md:flex flex-row justify-center gap-10 px-10 lg:flex flex-row justify-center gap-12 pt-10'>
           <article className="portfolio_item">
             <div className="portfolio_item-image">
               <img src={Login} 
@@ -67,7 +67,7 @@ const Portfolio = () => {
           </article>
         </div>
 
-        <div className='flex justify-center mt-10 px-0.5 lg:flex justify-center'>
+        <div className='flex justify-center mt-10 w-full px-2.5 lg:flex justify-center'>
           <article className="portfolio_item">
             <div className="portfolio_item-image">
               <img src={Chat} 
